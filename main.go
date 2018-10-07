@@ -1,7 +1,7 @@
 package main
 
 import (
-	"github.com/sbueringer/test/pkg"
+	"github.com/sbueringer/intellij-bazel-test/pkg"
 )
 
 

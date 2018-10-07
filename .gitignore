@@ -3,10 +3,5 @@
 .*.swo
 .*.swp
 .*~
-bazel-bin
-bazel-genfiles
-bazel-out
-bazel-t1
-bazel-testlogs
-bazel-test
+bazel-*
 .vscode
