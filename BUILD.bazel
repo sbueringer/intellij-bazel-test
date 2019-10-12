@@ -14,7 +14,6 @@ go_library(
     srcs = ["main.go"],
     importpath = "github.com/sbueringer/intellij-bazel-test",
     visibility = ["//visibility:private"],
-    deps = ["//pkg:go_default_library"],
 )
 
 go_binary(
