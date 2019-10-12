@@ -1,10 +1,9 @@
 package main
 
 import (
-	"github.com/sbueringer/intellij-bazel-test/pkg"
+	"fmt"
 )
 
-
-func main(){
-	pkg.Test()
+func main() {
+	fmt.Println("run")
 }

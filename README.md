@@ -1,10 +1,8 @@
 
-# Build & debug
+# Reproduce
 
-````
-bazel build //:test -c dbg
-
-dlv exec --headless --listen :2345 --api-version 2 bazel-bin/linux_amd64_debug/test
-
-# Start remote debug config in Intellij
-````
+* Import project
+* Sync project if necessary
+* Set breakpoint in unit test
+* Run unit test via Debug
+* > Unit test does not pause on breakpoint
